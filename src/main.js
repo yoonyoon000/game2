@@ -5,7 +5,7 @@ const yesBtn = document.querySelector("#yesBtn");
 const noBtn = document.querySelector("#noBtn");
 const escIcon = document.querySelector("#escIcon");
 
-for (let i = 0; i < 28; i++) {
+for (let i = 0; i < 100; i++) {
     const btn = document.createElement("button");
     btn.addEventListener("click", () => {
         if (!btn.classList.contains("clicked")) {
